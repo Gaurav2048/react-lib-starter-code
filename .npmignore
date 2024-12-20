@@ -3,3 +3,8 @@ src/
 *.log
 .babelrc
 client/
+.husky
+.eslintrc.js
+.jest.config.js
+setupTests.ts
+tsconfig.json

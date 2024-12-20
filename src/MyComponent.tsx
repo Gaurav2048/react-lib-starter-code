@@ -6,7 +6,7 @@ interface MyComponentProps {
 }
 
 const MyComponent: React.FC<MyComponentProps> = ({ text }) => {
-  return <div>{text}</div>;
+  return <div>{`Text is ${text}`}</div>;
 };
 
 export default MyComponent;
